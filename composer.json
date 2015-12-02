@@ -1,0 +1,29 @@
+{
+    "name": "gisostallenberg/correct-horse-battery-staple-client",
+    "description": "Client to query the microservice for the password strength checker 'correct-horse-battery-staple'",
+    "keywords" : [
+        "microservice client",
+        "password",
+        "strength",
+        "password strength",
+        "cracklib",
+        "cracklib-check"
+    ],
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giso Stallenberg",
+            "email": "gisostallenberg@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "GisoStallenberg\\CorrectHorseBatteryStapleClient\\": "src/"
+        }
+    }
+}
