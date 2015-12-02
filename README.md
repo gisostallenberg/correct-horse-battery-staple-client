@@ -13,5 +13,5 @@ use GisoStallenberg\CorrectHorseBatteryStapleClient\CorrectHorseBatteryStapleCli
 
 include __DIR__ . '/vendor/autoload.php';
 
-$results = CorrectHorseBatteryStapleClient::check('correcthorsebatterystaple', 'https://mypasswordchecker.com/') );
+$results = CorrectHorseBatteryStapleClient::check('correcthorsebatterystaple', 'https://mypasswordchecker.com/');
 ```
